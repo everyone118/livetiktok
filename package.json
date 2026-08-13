@@ -1,0 +1,15 @@
+{
+  "name": "livetiktokgame",
+  "version": "1.0.0",
+  "description": "Plinko (Thả bóng vật lý) tương tác TikTok Live - Backend Node.js + Frontend HTML5",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@tiktool/live": "^2.12.1",
+    "tiktok-live-connector": "^2.4.3",
+    "ws": "^8.21.3"
+  }
+}
